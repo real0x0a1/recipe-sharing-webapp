@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Delete Recipe</h1>
+  <p>Are you sure you want to delete recipe {{ recipe_id }}? This action cannot be undone.</p>
+  <form action="" method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Delete Recipe</button>
+    <a href="{% url 'ecipe_list' %}" class="btn btn-secondary">Cancel</a>
+  </form>
+{% endblock %}
