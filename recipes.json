@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Chicken Parmesan",
+        "description": "A classic Italian dish",
+        "ingredients": "chicken, breadcrumbs, parmesan, tomato sauce",
+        "instructions": "Bread the chicken, fry it, and top with tomato sauce and parmesan"
+    },
+    {
+        "id": 2,
+        "title": "Veggie Stir-Fry",
+        "description": "A quick and easy vegetarian dish",
+        "ingredients": "vegetables, oil, soy sauce",
+        "instructions": "Stir-fry the vegetables in oil and soy sauce"
+    },
+    {
+        "id": 3,
+        "title": "Grilled Cheese",
+        "description": "A classic comfort food",
+        "ingredients": "bread, cheese, butter",
+        "instructions": "Butter the bread, place cheese in between, and grill until golden brown"
+    }
+]
